@@ -24,6 +24,16 @@
         android:typeface="serif"
         android:textAlignment="center"
         android:paddingBottom="18dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvSec2Note"
+        android:textSize="22dp"
+        android:textStyle="bold|italic"
+        android:textColor="#ff1a237e"
+        android:text="Note: Choose the answer the applies to you the most."
+        android:paddingBottom="10dp"
+        android:maxLines="5" />
     <ScrollView
         android:minWidth="25px"
         android:minHeight="25px"
@@ -36,16 +46,6 @@
             android:layout_height="fill_parent"
             android:stretchColumns="1"
             android:id="@+id/TableLaySC5">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/txtvSec2Note"
-                android:textSize="22dp"
-                android:textStyle="bold|italic"
-                android:textColor="#ff1a237e"
-                android:text="Note: Choose the answer the applies to you the most."
-                android:paddingBottom="10dp"
-                android:maxLines="5" />
             <TextView
                 android:text="1. Do you/Will you go by walk to college?"
                 android:layout_width="match_parent"
@@ -508,7 +508,7 @@
                 android:textStyle="bold|italic"
                 android:textSize="19dp"
                 android:textAlignment="center"
-                android:paddingTop="10dp" 
+                android:paddingTop="10dp"
                 android:maxLines="3" />
             <Button
                 android:text="Proceed"
